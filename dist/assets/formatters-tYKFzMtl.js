@@ -1,0 +1,1 @@
+const r=(e,t="USD")=>new Intl.NumberFormat("en-US",{style:"currency",currency:t}).format(e),a=e=>new Intl.DateTimeFormat("en-US",{year:"numeric",month:"short",day:"numeric"}).format(new Date(e));export{a,r as f};
